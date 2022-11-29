@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    height: 60px;
+    justify-content: flex-end;
+    padding-left: 4px;
+    padding-right: 20px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.header-content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header a {
+    color:  black;
+}
+
+header .logo {
+    width: 30px;
+    border-radius: 50%;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex: 1;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap .logo {
+    margin-bottom: 30px;
+}
+
+.input {
+    border: 1px solid #dfe1e5;
+    border-radius: 50px;
+    display: flex;
+    width: 482px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    font-size: 15px;
+}
+
+
+
+input {
+    border: none;
+    margin-left: 20px;
+    outline: 0;
+    border-radius: 50px;
+    font-size: 15px;
+    width: 380px;
+}
+
+.access {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.access img {
+    margin-right:10px;
+    cursor:pointer;
+}
+
+.button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    padding: 10px 16px 10px 16px;
+    margin: 30px 10px; 
+    font-size: 14px;
+    border-radius: 5px;
+    color:#5F6368;
+    cursor:pointer;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: #f2f2f2;
+}
+
+.footer-header span {
+    margin-left: 30px;
+    font-size: 20px;
+
+}
+
+.footer-header {
+    border-top: 1px solid#e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
+}
+
+span a {
+    color: #5F6368;
+    font-size: 20px;
+}
+
+span a:hover {
+    text-decoration: underline;
+}
+.span-left {
+    float: left;
+}
+.span-left a,
+.span-right a {
+    margin-left: 30px;
+}
+
+.span-right {
+    float: right;
+    margin-right: 30px;
+}
